@@ -33,4 +33,12 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'guard-rspec'
+  gem 'rspec-rails'
+  gem 'jasmine'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+  gem 'minitest'
+  gem 'factory_girl_rails'
+  gem 'capybara'
 end
