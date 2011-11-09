@@ -1,4 +1,5 @@
 Cuberoom::Application.routes.draw do
+  match 'timer' => 'timer#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
