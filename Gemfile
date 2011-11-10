@@ -42,4 +42,5 @@ group :test do
   gem 'minitest'
   gem 'factory_girl_rails'
   gem 'capybara'
+  gem 'flexmock'
 end
