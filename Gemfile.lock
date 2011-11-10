@@ -98,6 +98,7 @@ GEM
     multi_json (1.0.3)
     nokogiri (1.5.0)
     polyglot (0.3.3)
+    puzzled (0.9.1)
     rack (1.3.5)
     rack-cache (1.1)
       rack (>= 0.4)
@@ -185,6 +186,7 @@ DEPENDENCIES
   jasmine
   jquery-rails
   minitest
+  puzzled
   rails (= 3.1.1)
   rspec-rails
   sass-rails (~> 3.1.4)
