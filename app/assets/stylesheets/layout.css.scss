@@ -1,0 +1,40 @@
+$body_color: #000;
+$body_background: #EEE;
+
+$a_color: #000;
+$a_color_hover: #444;
+
+$header_background: #DDD;
+$header_border: #CCC;
+
+* { padding: 0; margin: 0; }
+
+body {
+  font-family: 'Coustard', serif;
+  font-size: 140%;
+  color: $body_color;
+  background: $body_background;
+}
+
+a {
+  color: $a_color;
+  text-decoration: none;
+  &:hover {
+    color: $a_color_hover;
+  }
+}
+
+#content {
+  text-align: center;
+}
+
+#header {
+  background: $header_background;
+  padding: 10px 0;
+  overflow: hidden;
+  border-bottom: 5px solid $header_border;
+  a {
+    float: right;
+    margin-right: 20px;
+  }
+}

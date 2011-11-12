@@ -5,6 +5,6 @@ Feature: Join a room
 
   Scenario: I do not already have a room setup
     Given I visit the homepage
-    When I click 'Create a Room'
+    When I click '+'
     Then I should be in a room
     And I should see 'Room URL'
