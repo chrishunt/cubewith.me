@@ -31,9 +31,16 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :console do
+  gem 'hirb'
+  gem 'interactive_editor'
+  gem 'fancy_irb'
+end
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'therubyracer'
   gem 'guard-rspec'
   gem 'rspec-rails'
   gem 'jasmine'
